@@ -1,0 +1,276 @@
+/*******MY HEADER CSS*************************************/
+.LogoLeft {
+    float: left;
+}
+
+.headerContainer {
+    width: 1583px;
+    height: 223px;
+    background-color: #FFFDF8;
+}
+
+.searchBar {
+    display: flex;
+    margin-right: 225px;
+    flex-direction: row;
+    justify-content: flex-end;
+    overflow: hidden;
+    background-color: #FFFDF8;
+}
+  
+.searchBar input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    stroke: black;
+    stroke-width: 5px;
+    border-radius: 20px;
+}
+
+
+.navBar {
+    background-color: #FFFDF8;
+    margin-top: -70px;
+}
+.navButtons{
+    float: right;
+    background-color: #FFFDF8;
+}
+
+.navButtons ul li a{
+    color:black;
+}
+
+
+.navButtons ul li{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: #FFFDF8;
+    padding: 10px;
+}
+
+.donateBOX {
+    float: right;
+    margin-top: -55px;
+    margin-right:15px;
+    box-shadow: 5px 15px #888888;
+}
+
+.donateBOX {
+    width: 198px;
+    height: 155px;
+    background-color: #FF8F42;
+}
+
+.DONATEtext h1{
+    text-align: center;
+    margin-top: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+
+/*********MY HERO SECTION *************************************/
+
+.heroSection { 
+    display: flex;
+    height: 899px;
+    width: 1583px;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .heroIMG {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center; /* MADE TRANSFORMING VERTICAL CENTER */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.heroIMG {
+    display: flex;
+    background-image: url("../images/HERO.png");
+  
+  }
+
+.textPLAY {
+    text-align: center;
+    line-height: 50%; /* <<< made transforming and lives one home at a time closer veritcally */
+    width:100%;
+    padding: 20px 40px;
+    color: white;
+}
+
+.textPlay h1 {
+    font-size: 100px;
+    color: #4FD1D9;
+}
+
+.textPlay p{
+    font-size: 100px;
+    color: #4E5141;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*******MY MISSION SECTION CSS ******************************/
+
+.missionText p{
+    font-size: 30px;
+    margin-top: -6px;
+    margin-bottom: -6px;
+    color: #FFF7E3;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 2px black;
+    text-align: center;
+    background-color: #535353;
+    border: 50px solid #535353;; 
+}
+
+/******MY CAROUSEL CSS ******************************/
+.ourStories {
+    font-size: 50px;
+    color: #4FD1D9;
+    text-align: center;
+}
+
+.testimonyPhoto {
+    justify-content: space-around;
+}
+
+.testimonyText1 h1{
+    text-align: center;
+    font-size: 40px;
+    color: black
+}
+
+.spacer {
+width: 1583px;
+height: 10px;
+}
+
+.testimonyText1 p{
+    text-align: center;
+    line-height: 3pt;
+    font-size: 30px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.testimonyText2 p{
+    text-align: center;
+    line-height: 3pt;
+    font-size: 30px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/******MY MAP SECTION******************************/
+
+
+#mapGrid {
+    
+    display: grid;
+    min-height: 500px;
+    height: 70vh;
+    grid-template-rows: 1fr;
+    grid-template-columns: 75% 25%fr;
+    grid-template-areas: 
+    "interactiveMAP" "cityBOX"
+  }
+  
+  #interactiveMAP {
+  grid-area: interactiveMAP;
+  background-image: url("../images/MAP.png");
+  }
+  
+  .mapGridArea {
+    background-position: fill;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    position: relative;
+  }
+  
+  #cityBOX {
+    border: 1px solid black;
+    background-color: rgba(255,255,255,0.8);
+    box-shadow: 2px 2px gray;
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    max-width: 550px;
+    z-index: 100;
+    
+  } 
+
+  #cityBOX h3 {
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #C3D8C8;
+      border: 35px solid #C3D8C8;
+  }
+
+  #cityBOX p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+
+
+/******MY FOOTER CSS******************************/
+
+.Address {
+    float: left;
+    background-color: #FFFDF8;
+}
+
+.Address p{
+    background-color: #FFFDF8;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter; 
+}
+
+
+.accessICON {
+    display: grid;
+    margin-right: 250px;
+    justify-content: center;
+}
+
+.followIcons {
+    float: right;
+    margin-top: -100px;
+}
+
+.spacer2 {
+    width: 1583px;
+    height: 10px;
+    }
+
+
+.footerNAV {
+    display: grid;
+    margin-top: 5px;
+    margin-left: -100px;
+    justify-content: center;
+    background-color: #FFFDF8;
+}
+
+.footerNAV ul li a{
+    color:black;
+}
+
+
+.footerNAV ul li{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: #FFFDF8;
+    padding: 10px;
+}
